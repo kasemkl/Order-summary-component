@@ -17,8 +17,8 @@ font-family: 'Red Hat Display';
 flex-direction: column;
 }
 main{
-  width: 350px;
-  min-height: 500px;
+  width: 400px;
+  min-height: 600px;
   background-color: white;
   border-radius: 15px;
   display: flex;
@@ -31,24 +31,24 @@ h2{
     /* margin: 10px 0 0; */
 }
 #text{
-    font-size: 14px;
+    font-size: 16px;
     /* padding: 12px; */
     color: hsl(224, 23%, 55%);
     margin: 0px 20px;
 }
 #illus{
-  width: 350px;
+  width: 400px;
   border-radius: 15px 15px 0 0;
   /* margin-bottom: 5px; */
 }
 .change{
-    width: 260px;
+    width: 300px;
     height: 65px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: hsl(225, 100%, 98%);
-    font-size: 12px;
+    font-size: 14px;
 }
 .change a{
     transition: 0.5s;
@@ -74,13 +74,13 @@ h2{
     margin: 0 10px 0 0;
 }
 #payment{
-    width: 260px;
-    height: 32px;
+    width: 300px;
+    height: 45px;
     border: none;
     background: hsl(245, 75%, 52%);
     color: hsl(225, 100%, 94%);
-    border-radius: 5px;
-    font-size: 12px;
+    border-radius: 10px;
+    font-size: 14px;
     transition: 0.5s;
 }
 #payment:hover{
@@ -91,10 +91,10 @@ h2{
     background: transparent;
     border: none;
     color: hsl(224, 23%, 55%);
-    font-size: 12px;
+    font-size: 14spx;
     transition: 0.5s;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 #cancel:hover{
     color: hsl(223, 47%, 23%);
