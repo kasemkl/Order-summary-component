@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+}
+body{
+  background:url(images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+min-width: 100vh;
+min-height: 100vh;
+font-size: 16px;
+font-family: 'Red Hat Display';
+flex-direction: column;
+}
+main{
+  width: 350px;
+  min-height: 500px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}
+h2{
+    color: hsl(223, 47%, 23%);
+    /* margin: 10px 0 0; */
+}
+#text{
+    font-size: 14px;
+    /* padding: 12px; */
+    color: hsl(224, 23%, 55%);
+    margin: 0px 20px;
+}
+#illus{
+  width: 350px;
+  border-radius: 15px 15px 0 0;
+  /* margin-bottom: 5px; */
+}
+.change{
+    width: 260px;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    font-size: 12px;
+}
+.change a{
+    transition: 0.5s;
+}
+.change a:hover{
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+.music_price{
+    display: flex;
+    align-items: center;
+    
+}
+#artist{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+#price_per_year{
+    color: hsl(224, 23%, 55%);
+}
+#music{
+    width: 40px;
+    margin: 0 10px 0 0;
+}
+#payment{
+    width: 260px;
+    height: 32px;
+    border: none;
+    background: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    border-radius: 5px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+#payment:hover{
+    cursor: pointer;
+    background-color: hsl(224, 23%, 55%);
+}
+#cancel{
+    background: transparent;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    transition: 0.5s;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+    font-weight: 700;
+}
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
